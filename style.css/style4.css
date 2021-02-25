@@ -1,0 +1,86 @@
+@import url ('https://fonts.googleapis.com/css?family=Robot:700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    background: url(../img/images.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.foot {
+    margin:20px;
+    border-radius: 10px;
+    color: blue;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.4);
+}
+.eme {
+    border-radius: 25px;
+    width: 50px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.logo {
+    width: 140px;
+    height: auto;
+    padding: 20px 10px;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar ul li a.active .navbar ul li a.hover {
+    background: red;
+    border-radius: 2px;
+}
+
+.wrapper .center {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.center h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+
+}
+.center h2 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
